@@ -1,0 +1,48 @@
+owner: echolabs-me
+repo: status
+
+sites:
+  - name: EchoLabsME Website
+    url: https://echolabsme.com
+    maxResponseTime: 3000
+  - name: EchoLabsME API
+    url: https://api.echolabsme.com/health
+    expectedStatusCodes:
+      - 200
+    maxResponseTime: 2000
+  - name: EchoLabsME WebSocket
+    url: wss://api.echolabsme.com/ws
+    check: ws
+  - name: TLS Certificate (echolabsme.com)
+    url: https://echolabsme.com
+    check: ssl
+
+workflowSchedule:
+  uptime: "*/5 * * * *"
+
+notifications:
+  - type: email
+    to:
+      - [email protected]
+      - [email protected]
+    smtpHost: smtp.resend.com
+    smtpPort: 587
+    smtpUsername: $SMTP_USERNAME
+    smtpPassword: $SMTP_PASSWORD
+
+status-website:
+  cname: status.echolabsme.com
+  name: EchoLabsME Status
+  logoUrl: https://echolabsme.com/favicon.ico
+  introTitle: "**Multiverse Echoes** — Real-time platform status"
+  introMessage: "Live availability and incident history for echolabsme.com, the API, and related services. Status updates happen automatically every 5 minutes. For real-time discussion during incidents, join our Discord (link below)."
+  navbar:
+    - title: Status
+      href: /
+    - title: Discord
+      href: https://discord.gg/dRcB4QxUmJ
+    - title: Main Site
+      href: https://echolabsme.com
+    - title: GitHub
+      href: https://github.com/echolabs-me/status
+  theme: dark
