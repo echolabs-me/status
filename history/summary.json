@@ -22,17 +22,17 @@
     "url": "https://api.echolabsme.com/health",
     "icon": "https://icons.duckduckgo.com/ip3/api.echolabsme.com.ico",
     "slug": "echo-labs-me-api",
-    "status": "up",
-    "uptime": "0.02%",
-    "uptimeDay": "0.02%",
-    "uptimeWeek": "0.02%",
-    "uptimeMonth": "0.02%",
-    "uptimeYear": "0.02%",
-    "time": 183,
-    "timeDay": 183,
-    "timeWeek": 183,
-    "timeMonth": 183,
-    "timeYear": 183,
+    "status": "down",
+    "uptime": "19.63%",
+    "uptimeDay": "19.63%",
+    "uptimeWeek": "19.63%",
+    "uptimeMonth": "19.63%",
+    "uptimeYear": "19.63%",
+    "time": 173,
+    "timeDay": 173,
+    "timeWeek": 173,
+    "timeMonth": 173,
+    "timeYear": 173,
     "dailyMinutesDown": {
       "2026-04-21": 412
     }
@@ -54,7 +54,7 @@
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2026-04-21": 412
+      "2026-04-21": 512
     }
   },
   {
@@ -74,7 +74,7 @@
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2026-04-21": 412
+      "2026-04-21": 512
     }
   }
 ]
