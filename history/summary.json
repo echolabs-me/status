@@ -10,11 +10,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 278,
-    "timeDay": 292,
-    "timeWeek": 278,
-    "timeMonth": 278,
-    "timeYear": 278,
+    "time": 248,
+    "timeDay": 156,
+    "timeWeek": 248,
+    "timeMonth": 248,
+    "timeYear": 248,
     "dailyMinutesDown": {}
   },
   {
@@ -23,18 +23,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/api.echolabsme.com.ico",
     "slug": "echo-labs-me-api",
     "status": "down",
-    "uptime": "3.41%",
+    "uptime": "2.29%",
     "uptimeDay": "0.00%",
-    "uptimeWeek": "3.41%",
-    "uptimeMonth": "3.41%",
-    "uptimeYear": "3.41%",
-    "time": 160,
-    "timeDay": 150,
-    "timeWeek": 160,
-    "timeMonth": 160,
-    "timeYear": 160,
+    "uptimeWeek": "2.29%",
+    "uptimeMonth": "2.29%",
+    "uptimeYear": "2.29%",
+    "time": 151,
+    "timeDay": 108,
+    "timeWeek": 151,
+    "timeMonth": 151,
+    "timeYear": 151,
     "dailyMinutesDown": {
-      "2026-04-23": 148,
+      "2026-04-24": 149,
+      "2026-04-23": 1440,
       "2026-04-22": 1440,
       "2026-04-21": 1259
     }
@@ -56,7 +57,8 @@
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2026-04-23": 148,
+      "2026-04-24": 149,
+      "2026-04-23": 1440,
       "2026-04-22": 1440,
       "2026-04-21": 1359
     }
@@ -78,7 +80,8 @@
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2026-04-23": 148,
+      "2026-04-24": 149,
+      "2026-04-23": 1440,
       "2026-04-22": 1440,
       "2026-04-21": 1359
     }
