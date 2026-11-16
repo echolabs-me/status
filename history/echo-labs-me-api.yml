@@ -1,7 +1,7 @@
 url: https://api.echolabsme.com/health
-status: degraded
+status: down
 code: 530
-responseTime: 3831
-lastUpdated: 2026-11-16T22:49:28.358Z
+responseTime: 61
+lastUpdated: 2026-11-16T22:56:26.702Z
 startTime: 2026-04-21T01:21:17.747Z
 generator: Upptime <https://github.com/upptime/upptime>
